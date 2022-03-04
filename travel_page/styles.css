@@ -1,0 +1,149 @@
+@charset "UTF-8";
+
+body {
+    color:black;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    font-size: 14pt;
+    background-image:url("beach.png");
+    background-size: cover;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+#container {
+    width: 768px;
+    height: auto;
+    background-color: rgba(255,255,255,1.00);
+	margin:auto;
+}
+/*Float the Aside so it displays next to Main.*/
+aside {
+    width: 150px;
+    height: 2520px;
+    float: left;
+    font-size: medium;
+    background-color: #C7DFB2;
+}
+	
+header {
+    width: 768px;
+    height: 250px;
+    background-color: #FFFFFF;
+    background-image: url("Asset 5@3x.png")
+}
+main {
+    width: 598px;
+    height: 2500px;
+    float: left;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    background-color: white;
+}
+h1 {
+    color: black;
+    font-size: 73px;
+    text-decoration: underline;
+}
+/*Clear the float so the footer shows up in the right place again.*/
+footer {
+    width: 768px;
+    height: 50px;
+    background-color: #C7DEB2;
+    float: none;
+    clear: both;
+}
+h1 {
+    font-family: tornac, "sans-serif;";
+    font-weight: 1800;
+    font-style: normal;
+    color: #5FBFDA;
+    font-size: 26pt;
+	width: 600px;
+}
+
+
+
+p{
+    font-family: forma-djr-display,sans-serif;
+font-weight: 400;
+font-style: normal;
+    padding-top: px;
+}
+img {
+    float: left;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+h3 {
+    font-size: 12pt;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+.floatLeft{
+	float:left;
+	
+}
+article {
+    margin-bottom: 30px;
+}
+nav {
+    width: 823px;
+    height: 50px;
+}
+#container nav li {
+    display: block;
+    list-style-type: none;
+    float: left;
+    width: 81px;
+    margin: 0px 40px 0px 0px;
+    font-family: alkaline, sans-serif;
+    font-size: 20pt;
+}
+#container nav ul {
+    margin: auto;
+    width: 537px;
+}
+a:link {
+    color: #508527;
+    text-decoration: none;
+	padding: 10px;
+}
+a:visited {
+    text-decoration: none;
+    color: #56B3CF;
+}
+a:hover {
+    text-decoration: none;
+    color:#BEF38D;
+	background-color: #5FBFDA;
+	padding: 10px;
+	border-radius: 20px;
+}
+a:active {
+    text-decoration: none;
+    color: #00ADCA;
+}.submit_btn   {
+    width: 160px;
+    height: 30px;
+    background-color: #C7DEB2;
+    border-radius: 10px;
+    color: #04789D;
+}
+
+.submit_btn:hover {
+    -webkit-box-shadow: 6px 6px 34px 5px #5FBFDA;
+    box-shadow: 6px 6px 34px 5px #5FBFDA;
+}
+.bio{
+    left-padding: 10px;
+    float: right;
+    width: 351px;
+}
